@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>书架页</title>
+	<link rel="stylesheet" type="text/css" href="css/bookshelf.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="js/sidebar.js"></script>
+	<script src="js/bookshelf.js"></script>
+</head>
+<body>
+	<div class="bookshelf_main">
+		<div class="bookshelf_sidebar">
+			<div class="search">
+				<a href="#" class="search_img"></a>
+			</div>
+			<div class="menu_list">			
+				<ul id="menu_list">
+					<li class="in"><a href="#">My library</a></li>
+					<li><a href="#">Favorite</a></li>
+					<li><a href="#">History</a></li>
+					<li><a href="#">Tasks</a></li>
+				</ul>
+			</div>
+			<div class="level_list">
+				<div class="level_list_main">
+					<div id="level_prev" class="level_list_prev"></div>
+					<div id="alphabet" class="level_list_A_Z">
+						<div class="right_fox">
+							<div title="当前等级E" class="fox_level fox_e">
+								
+							</div>
+						</div>
+						<div id="classify_menu" class="classify_list">
+							<a class="Advanced" href="#"><span>Advanced</span></a>
+							<a class="Proficient" href="#"><span>Proficient</span></a>
+							<a class="Independent" href="#"><span>Independent</span></a>
+							<a class="Intermediate" href="#"><span>Intermediate</span></a>
+							<a class="Developing" href="#"><span>Developing</span></a>
+							<a class="Emerging deblocking" href="#"><span>Emerging</span></a>
+							<a class="Beginner deblocking" href="#"><span>Beginner</span></a>
+						</div>
+						<ul id="X_Z" class="X_Z none">
+							<li>Z</li>
+							<li>Y</li>
+							<li>X</li>
+						</ul>
+						<ul id="T_W" class="T_W none">
+							<li>W</li>
+							<li>V</li>
+							<li>U</li>
+							<li>T</li>
+						</ul>
+						<ul class="P_S">
+							<li>S</li>
+							<li>R</li>
+							<li>Q</li>
+							<li>P</li>
+						</ul>
+						<ul class="L_O">
+							<li>O</li>
+							<li>N</li>
+							<li>M</li>
+							<li>L</li>
+						</ul>
+						<ul class="H_K">
+							<li>K</li>
+							<li>J</li>
+							<li>I</li>
+							<li>H</li>
+						</ul>
+						<ul id="D_G" class="D_G">
+							<li class="color">G</li>
+							<li class="color">F</li>
+							<li class="color now_level">E</li>
+							<li class="color">D</li>
+						</ul>
+						<ul id="A_C" class="A_C">
+							<li class="color">C</li>
+							<li class="color">B</li>
+							<li class="color">A</li>
+						</ul>
+					</div>
+					<div id="level_next" class="level_list_next"></div>
+				</div>
+			</div>
+		</div>
+		<div class="bookshelf_right" >
+			<div class="bookshelf_header" id="main_relative">
+				<img class="logo" src="image/shelf_logo.png">
+				<div class="personal_center">
+					<div class="nav">
+						<a href="#">我的书架</a>
+						<a href="#">购买</a>
+						<a href="#">帮助</a>
+					</div>
+					<a href="#">
+						<dl class="personal_information">
+							<dt>
+								<img src="image/pic.jpg">
+								<span>1999</span>
+							</dt>
+							<dd>Amy Gao</dd>
+						</dl>
+					</a>
+				</div>
+			</div>
+			<div class="bookshelf_list">
+				<div class="progress_bar">
+					<span class="progress_left">0%</span>
+					<span class="progress_right">14/200</span>
+
+					<div class="progress_bar_in">
+						<div style="width:80%" class="progress_bar_doing">
+							<span style="margin-left:80%;" class="tips">80%</span>
+						</div>
+					</div>
+					<span>Level C - Beginner </span>
+				</div>
+				<div id="book_body" class="book_list_box">
+
+					<div class="book_body">
+						<div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div><div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div><div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">							
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+							<div class="pass_nut">
+								<span class="nut1">5</span>
+								<span class="nut2">8</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">							
+							<img src="image/book_pic.jpg">	
+							<div class="collection"><!-- 收藏 --></div>	
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">4</span>
+								<!-- 过关坚果 -->
+							</div>					
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="pass_nut">
+								<span class="nut1">1</span>
+								<span class="nut2">6</span>
+								<!-- 过关坚果 -->
+							</div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="collection"><!-- 收藏 --></div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="locking"><!-- 未解锁 --></div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="locking"><!-- 未解锁 --></div>
+						</div>
+						<div class="book">
+							<img src="image/book_pic.jpg">
+							<div class="locking"><!-- 未解锁 --></div>
+						</div>
+						<div class="clear"><!--清除浮动--></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
